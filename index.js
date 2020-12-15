@@ -1,15 +1,15 @@
 /*
 * "Jangan modal nama doang bro!!!"
-* (Scriptnya MASLENT YT
+* (Scriptnya RIZKY BOT
 * jangan ubah semuanya kecuali nama bot instagram yt itu ajah yg lain jangan!!!
 * hargai pembuat skrip woy!!! DI UBAH AUTO EROR GAN
 */
-const XPTN = 'BANGLENT'; // JANGAN DI UBAH NNTI EROR
-const instagram = 'https://instagram.com/maslent11'; // JANGAN DI UBAH NNTI EROR
-const nomer = 'https://Wa.me/+628165466368'; // JANGAN DI UBAH NANTI EROR
-const aktif = 'Sesuai Selera'; // DI GANTI AUTO EROR
-const groupwa = 'https://chat.whatsapp.com/E8VriS0ojj53PX5wkhPYaD'; // DI GANTI AUTO EROR
-const youtube = 'https://www.youtube.com/channel/UCAn_1yox-jIUFhUVYTxI_JA'; // DI GANTI AUTO EROR
+const XPTN = 'RIZKY BOT'; // JANGAN DI UBAH NNTI EROR
+const instagram = 'https://instagram.com/_rizkyfadilah8'; // JANGAN DI UBAH NNTI EROR
+const nomer = 'https://Wa.me/+6282387804410'; // JANGAN DI UBAH NANTI EROR
+const aktif = 'SETERAH GW LAH MAU AKTIF KAPAN!'; // DI GANTI AUTO EROR
+const groupwa = 'https://chat.whatsapp.com/FROF0hmWUuwD4WKgcyIEH9'; // DI GANTI AUTO EROR
+const youtube = 'Males'; // DI GANTI AUTO EROR
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -79,7 +79,7 @@ conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @maslentyt`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @Rzkybot`)
 })
 
 conn.on('message-new', async(m) =>
@@ -147,13 +147,13 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '.owner'){
-conn.sendMessage(id, 'Owner BOTLENT wa.me/+628165466368' ,MessageType.text);
+conn.sendMessage(id, 'Owner BOTLENT wa.me/+6282387804410' ,MessageType.text);
 }
-else if (text == 'Maslent'){
-conn.sendMessage(id, 'aku pembuat Lent bot' ,MessageType.text);
+else if (text == 'Rizky'){
+conn.sendMessage(id, 'aku pembuat Rzky bot' ,MessageType.text);
 }
-else if (text == 'chichi'){
-conn.sendMessage(id, 'pacar maslent' ,MessageType.text);
+else if (text == 'Kurumi'){
+conn.sendMessage(id, 'pacar Rizky' ,MessageType.text);
 }
 else if (text == 'bangsat'){
 conn.sendMessage(id, 'toxic terdeteksi' ,MessageType.text);
@@ -216,13 +216,13 @@ else if (text == 'Cuy'){
 conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh #help' ,MessageType.text);
 }
 else if (text == '.frendsowner'){
-conn.sendMessage(id, 'kawan1 iskandar wa.me/+628165466368' ,MessageType.text);
+conn.sendMessage(id, 'kawan1 Rasya and Stephen wa.me/+6282387804410' ,MessageType.text);
 }
 else if (text == '.coowner'){
-conn.sendMessage(id, 'kawan2 testing script wa.me/+628165466468' ,MessageType.text);
+conn.sendMessage(id, 'kawan2 testing script wa.me/+6282387804410' ,MessageType.text);
 }
 else if (text == '.groupbot'){
-conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/GDdd0I3WlF5LnMVifmS7rN' ,MessageType.text);
+conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/FROF0hmWUuwD4WKgcyIEH9' ,MessageType.text);
 }
 else if (text == '.tools1'){
 conn.sendMessage(id, ' *Menampilkan Fitur tools1!!!* ' ,MessageType.text);
@@ -1111,25 +1111,25 @@ else if (text == '.foto'){
 conn.sendMessage(id, 'kirim .foto cewek/cowok\n\nContoh: .foto cewek' ,MessageType.text);
 }
 else if (text == '.help'){
-conn.sendMessage(id, ' _TERIMAKASIH BANYAK TELAH MENGGUNAKAN FITUR INI...UNTUK PEMBUATAN BOT INI CEK CHANEL MASLENT YT TINGGALKAN SUBSCRIBE YHA' ,MessageType.text);
+conn.sendMessage(id, ' _TERIMAKASIH BANYAK TELAH MENGGUNAKAN FITUR INI... JANGAN LUPA UNTUK DONASI YA' ,MessageType.text);
 }
 else if (text == '.tools1'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rizkyfadilah8' ,MessageType.text);
 }
 else if (text == '.menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rizkyfadilah8' ,MessageType.text);
 }
 else if (text == '.tool2'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 :https://instagram.com/_rizkyfadilah8' ,MessageType.text);
 }
 else if (text == '.tools3'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rizkyfadilah8' ,MessageType.text);
 }
 else if (text == '.tools4'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rizkyfadilah8' ,MessageType.text);
 }
 else if (text == '.tools5'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾XP-TNNBOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/@maslent11' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rizkyfadilah8' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
@@ -1733,7 +1733,7 @@ if (text.includes(".alay")){
 	})
 }
 
-//Tolonglah bro jangan di ubah ubah MASLENT YT
+//Tolonglah bro jangan di ubah ubah 
 
 
 })
