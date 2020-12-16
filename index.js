@@ -268,7 +268,7 @@ conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.tex
 }
 else if (text == 'owner lu mana'){
 conn.sendMessage(id, 'cie rindu owner ku yaa ciee😳' ,MessageType.text);
-
+}
 // Fitur
 
 if (text.includes('.nulis')){
