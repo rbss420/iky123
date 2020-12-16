@@ -1786,8 +1786,7 @@ const start = async (client = new Client()) => {
 create('RIZKY', options(true, start))
     .then(client => start(client))
     .catch((error) => console.log(error))
-
-})
+ })
 //Tolonglah bro jangan di ubah ubah 
 
 
