@@ -136,7 +136,7 @@ module.exports = msgHandler = async (client, message) => {
             break
         case '!donasi':
         case '!donate':
-            client.sendLinkWithAutoPreview(from, 'https://saweria.co/donate/mhankbarbar', donate)
+            client.sendLinkWithAutoPreview(from,'https://trakteer.id/rizkybot', donate)
             break
         case '!tts':
             if (args.length === 1) return client.reply(from, 'Kirim perintah *!tts [id, en, jp, ar] [teks]*, contoh *!tts id halo semua*')
@@ -248,7 +248,7 @@ module.exports = msgHandler = async (client, message) => {
             client.sendFileFromUrl(from, epbe.result, 'epbe.mp4', epbe.title, id)
             break
         case '!creator':
-            client.sendContact(from, '6285892766102@c.us')
+            client.sendContact(from, '6282387804410@c.us')
             break
         case '!ig':
             if (args.length === 1) return client.reply(from, 'Kirim perintah *!ig [linkIg]* untuk contoh silahkan kirim perintah *!readme*')
