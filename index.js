@@ -1730,7 +1730,7 @@ axios.get(`https://api.banghasan.com/domain/nping/${teks}`).then((res) => {
 if (text.includes(".alay")){
 const alay = text.split(".alay")[1]
 axios.get(`https://api.terhambar.com/bpk?kata=${alay}`).then ((res) =>
-    let hasil = `${res.data.text}`
+    { let hasil = `${res.data.text}`
     conn.sendMessage(id, hasil, MessageType.text)
   })
  }
@@ -1759,7 +1759,7 @@ const start = async (client = new Client()) => {
 
         client.onGlobalParicipantsChanged((async (heuh) => {
             await welcome(client, heuh)
-            //left(client, heuh)
+            //left(client, heuh) 
             }))
         
         client.onAddedToGroup(((chat) => {
