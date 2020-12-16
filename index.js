@@ -1790,4 +1790,3 @@ create('RIZKY', options(true, start))
 //Tolonglah bro jangan di ubah ubah 
 
 
-})
