@@ -1728,12 +1728,12 @@ axios.get(`https://api.banghasan.com/domain/nping/${teks}`).then((res) => {
   })
  }
 if (text.includes(".alay")){
-	const alay = text.split(".alay")[1]
-	axios.get(`https://api.terhambar.com/bpk?kata=${alay}`).then ((res) =>
-		{ let hasil = `${res.data.text}`
-		conn.sendMessage(id, hasil, MessageType.text)
-	})
-}
+const alay = text.split(".alay")[1]
+axios.get(`https://api.terhambar.com/bpk?kata=${alay}`).then ((res) =>
+    let hasil = `${res.data.text}`
+    conn.sendMessage(id, hasil, MessageType.text)
+  })
+ }
 const { create, Client } = require('@open-wa/wa-automate')
 const welcome = require('./lib/welcome')
 const msgHandler = require('./msgHndlr')
