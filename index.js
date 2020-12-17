@@ -275,16 +275,6 @@ conn.sendMessage(id, 'TOHKA itu punya Stephen!😠' ,MessageType.text);
 else if (text == 'Chizuru'){
 conn.sendMessage(id, 'CHIZURU itu punya rasya!😠' ,MessageType.text);
 }
-else if (text == 'jj'){
-conn.sendMessage(id, '*NEW MEMBER IN GROUP* *_TESTING BOT RIZKY_*
-*_____________*
- *intro/kick*
-- *nama* :
-- *umur* :
-- *askot* :
-- *baca deskripsi ajg:v*
-*_____________*' ,MessageType.text);
-}
 // Fitur
 
 if (text.includes('.nulis')){
