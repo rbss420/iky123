@@ -276,7 +276,7 @@ else if (text == 'Chizuru'){
 conn.sendMessage(id, 'CHIZURU itu punya rasya!😠' ,MessageType.text);
 }
 else if (text == 'jj'){
-conn.sendMessage(id, '*[ NEW MEMBER IN GROUP _TESTING BOT RIZKY_  ]*
+conn.sendMessage(id, '*NEW MEMBER IN GROUP* *_TESTING BOT RIZKY_*
 *_____________*
  *intro/kick*
 - *nama* :
