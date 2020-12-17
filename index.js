@@ -152,8 +152,8 @@ conn.sendMessage(id, 'Owner BOTRzky wa.me/+6282387804410' ,MessageType.text);
 else if (text == 'Rizky'){
 conn.sendMessage(id, 'aku pembuat Rzky bot' ,MessageType.text);
 }
-else if (text == 'kurumi'){
-conn.sendMessage(id, 'pacar Rizky' ,MessageType.text);
+else if (text == 'Kurumi'){
+conn.sendMessage(id, 'KURUMI itu punya Rizky!😠' ,MessageType.text);
 }
 else if (text == 'bangsat'){
 conn.sendMessage(id, 'toxic terdeteksi' ,MessageType.text);
@@ -268,6 +268,12 @@ conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.tex
 }
 else if (text == 'owner lu mana'){
 conn.sendMessage(id, 'cie rindu owner ku yaa ciee😳' ,MessageType.text);
+}
+else if (text == 'Tohka'){
+conn.sendMessage(id, 'TOHKA itu punya Stephen!😠' ,MessageType.text);
+}
+else if (text == 'Chizuru'){
+conn.sendMessage(id, 'CHIZURU itu punya rasya!😠' ,MessageType.text);
 }
 // Fitur
 
