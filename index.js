@@ -4,7 +4,7 @@
 * jangan ubah semuanya kecuali nama bot instagram yt itu ajah yg lain jangan!!!
 * hargai pembuat skrip woy!!! DI UBAH AUTO EROR GAN
 */
-const XPTN = 'RIZKY BOT'; // JANGAN DI UBAH NNTI EROR
+const XPTN = 'RIBAS BOT'; // JANGAN DI UBAH NNTI EROR
 const instagram = 'https://instagram.com/_rizkyfadilah8'; // JANGAN DI UBAH NNTI EROR
 const nomer = 'https://Wa.me/+6282387804410'; // JANGAN DI UBAH NANTI EROR
 const aktif = 'SETERAH GW LAH MAU AKTIF KAPAN!'; // DI GANTI AUTO EROR
